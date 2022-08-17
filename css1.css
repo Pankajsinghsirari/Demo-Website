@@ -1,0 +1,17 @@
+* {
+    background-color: black;
+    width: 90%;
+}
+h1, article {
+    text-align: center;
+    color: rgb(255,255,255);
+    font-size: 25px;
+}
+#a2 {
+    color: chartreuse;
+    width: 50%;
+}
+#a3 {
+    color: darkorange;
+    font-size: 10px;
+}
