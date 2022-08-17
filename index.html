@@ -8,28 +8,120 @@
     <link rel="stylesheet" href="demo.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Demo Website</h1>
+    <header id="header">
+        <h1>Welcome to My Demo Website</h1> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#about">About Us</a>
+            <a href="https://www.linkedin.com/in/pankajsirari222" target="_blank">Contact Info.</a>
+            <a href="#form">Login/Register</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Contact Info.</a>
-        <a href="#">Login/Register</a>
-    </nav>
     <main>
-        <section>
-            <a href="#" target="_blank">
-                <img src="w3.jpg" alt="Click here" height="300px">
+        <section id="image">
+            <a href="https://www.w3schools.com/" target="_blank">
+                <img src="/images/w3.jpg" alt="Click here" height="300px">
             </a>
+            <br><br><br>
         </section>
+        <!-- <section >
+            <h2>Some Important Links</h2>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Table</a></li>
+                <li><a href="#">Registration Form</a></li>
+                <li><a href="#">Lists</a></li>
+            </ul>
+        </section> -->    
+        <section id="lists">
+            <table class ="tab1">
+            <tr>
+                <th colspan="2" ><em>Languages to Learn :-</em></th>
+            </tr>
+            <tr>
+                <th>&nbsp;</th>
+            </tr>    
+            <tr>
+                <th>DSA :-</th>
+                <th>Web Development :-</th>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ol>
+                </td>
+                <td>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </td>
+            </tr>
+            </table>
+            <br><br><br>
+        </section>
+        <section id="table">
+            <table  class = "tab1" border="2">
+            <tr>
+                <th>Reg No.</th>
+                <th>Name</th>
+                <th>Salary Package</th>
+                <th>Company</th>
+            </tr>
+            <tr>
+                <td>195842</td>
+                <td>James</td>
+                <td>Google</td>
+                <td>1 Cr</td>
+            </tr>
+            <tr>
+                <td>120456</td>
+                <td>John</td>
+                <td>Microsoft</td>
+                <td>60 LPA</td>
+            </tr>
+            <tr>
+                <td>1184554</td>
+                <td>Joy</td>
+                <td>Amazon</td>
+                <td>45 LPA</td>
+            </tr>
+            </table>
+            <br><br><br>
+        </section>    
+        <section id="about">
+            <article>
+                <h2>About this Page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore magni blanditiis quam porro culpa explicabo ipsa, quaerat natus expedita tenetur ipsum, rem dolorum a quos facere corporis quo, tempora fuga error earum quis cupiditate perferendis? Facere, aperiam et suscipit, a nemo repellat quam neque voluptates beatae modi sed amet iure rerum iste dolores ut natus fugit hic ipsum. Aspernatur tenetur quae deleniti tempore eum quidem obcaecati, vero ipsam id excepturi perferendis harum quisquam reprehenderit pariatur vel officiis, magni voluptas perspiciatis! Et accusamus deserunt doloribus labore corrupti tenetur iusto nihil laborum pariatur consequuntur quidem eveniet quas corporis libero, voluptate reiciendis eligendi.</p>
+            </article>
+        </section>
+        <section id="form">
+            <form>
+                <!-- <hr size="3px" noshade color="red"> -->
+                <b><i><p>Register Here for More Info. :-</p></i></b>
+                Name *: <input type="text" name="name" id="name" required> <br>
+                Gender:
+                <input type="radio" name="gender" id="male">Male
+                <input type="radio" name="gender" id="female">Female <br>
+                Email Id. *:<input type="email" name="email" required><br>
+                Password *:<input type="password" name="pass" required><br> 
+                Phone No. :<input type="number" name="phonenum"><br>
+                <input type="submit" value="Register">
+            </form>
+            <br><br><br>
+        </section>       
     </main>
     <footer>
         <nav>
-            <a href="#" target="_blank">Linkedin</a>
-            <a href="#" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Contact Us</a>
-            <a href="#" target="_blank">FAQ</a>
+            <a href="https://www.linkedin.com/in/pankajsirari222" target="_blank">Linkedin</a>
+            <a href="#lists">Languages to Learn</a>
+            <a href="#table">Info. Table</a>
+            <a href="#header">Top Of Page</a>
+            <a href="#" target="_blank">FAQ's</a>
             <a href="#" target="_blank">Privacy Policy</a>
             <a href="#">&lt;&copy;Pankaj&gt;,&nbsp;&nbsp;Alls Rights reserved</a>
             
