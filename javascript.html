@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Hello World!
+    </p>
+
+    <p id="demo"></p>
+
+    <script>
+        var x = 2;
+        var time = 24;
+        var x = 3;
+        
+        if (time < 10) {
+            greeting = "Good morning";
+        } else if (time < 20) {
+            greeting = "Good day";
+        } else {
+            greeting = "Good evening";
+        }
+        let p1 = prompt("Please enter your name", "Enter");
+        let p2 = prompt("Please enter your name", "Enter");
+
+        for (let i = 0; i < 5; i++) {
+           x = x + i;
+        }
+        var i = 0;
+        while (i < 10) {
+            i++;
+        }
+       
+    document.getElementById("demo").innerHTML =p1 + " " + p2 + "<br>" + "Is Input 1 and Input 2 equal ? " + Boolean(p1==p2) + "<br>"+ "Time : " + time + "<br>" + greeting + "<br>"+ "Value of x : " + x + "<br>Type of x :" + typeof x + "<br> Type of Greetings: " + typeof greeting + "<br>Value of i: " + i;    
+       
+    </script>
+</body>
+</html>
